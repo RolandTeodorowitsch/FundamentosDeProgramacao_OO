@@ -22,5 +22,10 @@ public class AppCirculo {
         System.out.printf("Raio = %f / Circunferencia = %f / Area = %f\n", c3.obtemRaio(),
                                                                            c3.circunferencia(),
                                                                            c3.area() );
+
+        Circulo c4 = Circulo.comCircunferencia(5.0);
+        System.out.printf("Raio = %f / Circunferencia = %f / Area = %f\n", c4.obtemRaio(),
+                                                                           c4.circunferencia(),
+                                                                           c4.area() );
     }
 }
